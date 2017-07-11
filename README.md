@@ -8,16 +8,16 @@ A collection of customizable progress bars for React and React Native.
 using npm:
 
 
-`npm i -S react-progressor`
+`npm i -S react-rn-progressor`
 
 using yarn:
 
-`yarn add --dev react-progressor`
+`yarn add --dev react-rn-progressor`
 
 ## Usage/Demo - Mobile
 
 <details>
-  <summary> **Line** </summary>
+  <summary> Line </summary>
 
   ![Line progressor for Mobile](media/LineRN.gif)
 
@@ -71,7 +71,7 @@ using yarn:
 </details>
 
 <details>
-  <summary> **Fence** </summary>
+  <summary> Fence </summary>
 
   ![Fence progressor for RN](media/FenceRN.gif)
 
@@ -132,7 +132,7 @@ using yarn:
 ## Usage/Demo - Web
 
 <details>
-  <summary> **Line** </summary>
+  <summary> Line </summary>
 
   ![Line progressor for Web](media/LineWeb.gif)
 
@@ -185,7 +185,7 @@ using yarn:
 </details>
 
 <details>
-  <summary> **HalfCircle** </summary>
+  <summary> HalfCircle </summary>
 
   ![HalfCircle progressor for Web](media/HalfCircleWeb.gif)
 
@@ -244,4 +244,4 @@ using yarn:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details

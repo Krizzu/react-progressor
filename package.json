@@ -1,5 +1,5 @@
 {
-  "name": "react-progressor",
+  "name": "react-rn-progressor",
   "version": "0.0.1",
   "description": "A customizable collection of progress indicators for React and React Native",
   "scripts": {
