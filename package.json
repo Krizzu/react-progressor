@@ -1,6 +1,6 @@
 {
   "name": "react-rn-progressor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A customizable collection of progress indicators for React and React Native",
   "scripts": {
     "test": "npm run eslint &&  npm run jest && npm run flow",
