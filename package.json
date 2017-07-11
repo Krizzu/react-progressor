@@ -1,0 +1,54 @@
+{
+  "name": "react-progressor",
+  "version": "0.0.1",
+  "description": "A customizable collection of progress indicators for React and React Native",
+  "scripts": {
+    "test": "npm run eslint &&  npm run jest && npm run flow",
+    "posttest": "flow stop",
+    "prepublish": "babel src --out-dir ./",
+    "eslint": "eslint src/**",
+    "jest": "jest",
+    "flow": "flow"
+  },
+  "files": [
+    "web",
+    "mobile"
+  ],
+  "keywords": [
+    "react",
+    "react-native",
+    "progress",
+    "bar",
+    "progress-bar",
+    "progressor"
+  ],
+  "author": "Krzysztof 'Krizzu' Borowy <krzysztoff.borowy@gmail.com>",
+  "license": "MIT",
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "prop-types": "^15.5.10",
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.43.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^20.0.3",
+    "babel-preset-react-native": "^2.0.0",
+    "enzyme": "^2.9.1",
+    "eslint": "^4.1.1",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.6.1",
+    "eslint-plugin-jest": "^20.0.3",
+    "eslint-plugin-jsx-a11y": "5",
+    "eslint-plugin-react": "^7.1.0",
+    "flow-bin": "0.40.0",
+    "jest": "^20.0.4",
+    "react-test-renderer": "16.0.0-alpha.6"
+  }
+}
