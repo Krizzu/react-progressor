@@ -9,6 +9,7 @@
     "postpublish": "rm -rf ./mobile ./web",
     "eslint": "eslint src/**",
     "jest": "jest",
+    "jest-ci": "jest --ci",
     "flow": "flow"
   },
   "files": [

@@ -26,7 +26,7 @@ jobs:
         
       - run: yarn eslint
 
-      - run: yarn jest --ci
+      - run: yarn jest-ci
 
       - run: yarn flow
 
