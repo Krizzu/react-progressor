@@ -33,7 +33,7 @@ export const CompletedTrack = ({ style, children, func, time }) => (
 
 Container.propTypes = {
   style: propTypes.object,
-  children: propTypes.element,
+  children: propTypes.oneOfType([propTypes.element, propTypes.array]),
 };
 
 Track.propTypes = {

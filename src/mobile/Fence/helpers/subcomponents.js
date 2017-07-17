@@ -30,13 +30,13 @@ export const Block = ({ width, height, active, aColor, iaColor, style, children 
 
 Container.propTypes = {
   style: propTypes.object,
-  children: propTypes.element,
+  children: propTypes.oneOfType([propTypes.element, propTypes.array]),
 };
 
 Block.propTypes = {
   style: propTypes.object,
   children: propTypes.element,
-  active: propTypes.string,
+  active: propTypes.bool,
   aColor: propTypes.string,
   iaColor: propTypes.string,
   width: propTypes.number,
