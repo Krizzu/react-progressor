@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It renders without errors 1`] = `
+<div
+  style={
+    Object {
+      "display": "inline-block",
+      "height": 120,
+      "position": "relative",
+      "width": 120,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "height": 60,
+        "overflow": "hidden",
+        "position": "relative",
+        "width": 120,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "borderBottomColor": "#8DE969",
+          "borderLeftColor": "#eee",
+          "borderRadius": "50%",
+          "borderRightColor": "#8DE969",
+          "borderStyle": "solid",
+          "borderTopColor": "#eee",
+          "borderWidth": 5,
+          "boxSizing": "border-box",
+          "height": 120,
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+          "transform": "rotate(45deg)",
+          "transition": "transform 200ms linear",
+          "width": 120,
+        }
+      }
+    />
+  </div>
+</div>
+`;

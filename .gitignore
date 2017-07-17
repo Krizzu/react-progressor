@@ -1,7 +1,4 @@
 node_modules
-*.snap
-
-__snapshots__
 
 # OSX
 #

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It renders without errors 1`] = `
+<div
+  style={
+    Object {
+      "height": 5,
+      "position": "relative",
+      "width": 150,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#eee",
+        "height": 5,
+        "left": 0,
+        "position": "absolute",
+        "top": 0,
+        "width": 150,
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "backgroundColor": "#8DE969",
+        "height": 5,
+        "left": 0,
+        "position": "absolute",
+        "top": 0,
+        "transition": "width 200ms linear",
+        "width": 0,
+      }
+    }
+  />
+</div>
+`;
