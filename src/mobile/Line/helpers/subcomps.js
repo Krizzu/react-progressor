@@ -33,7 +33,7 @@ export const ProgressTrack = ({ color, style, children }) => (
 );
 
 Container.propTypes = {
-  children: propTypes.element,
+  children: propTypes.any,
   style: propTypes.object,
   width: propTypes.number,
   height: propTypes.number,

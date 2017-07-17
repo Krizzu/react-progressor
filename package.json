@@ -6,6 +6,7 @@
     "test": "npm run eslint &&  npm run jest && npm run flow",
     "posttest": "flow stop",
     "prepublish": "babel src --out-dir ./",
+    "postpublish": "rm -rf ./mobile ./web",
     "eslint": "eslint src/**",
     "jest": "jest",
     "flow": "flow"
@@ -28,8 +29,11 @@
     "preset": "react-native"
   },
   "dependencies": {
+    "art": "^0.10.1",
     "babel": "^6.23.0",
     "babel-cli": "^6.24.1",
+    "d3-scale": "^1.0.6",
+    "d3-shape": "^1.2.0",
     "prop-types": "^15.5.10",
     "react": "16.0.0-alpha.6",
     "react-native": "0.43.4"

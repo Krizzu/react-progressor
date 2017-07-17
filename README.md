@@ -129,6 +129,49 @@ using yarn:
 
 </details>
 
+<details>
+  <summary> FillCircle </summary>
+   ![FillCircle progressor for Mobile](media/FillCircleRN.gif)
+
+   ```javascript
+
+    import { FillCircleProgressor } from 'react-progressor/mobile';
+
+    <FillCircleProgressor
+
+     size={150}  /* Size of the progress.
+                  * Applies for both width and height to keep ratio.
+                  * Required value
+                  * Type: number
+                  * Default: 150
+                  */
+
+      progress={0}   /* Value of progress to display (0 - 100)%
+                      * Required value
+                      * Type: number (0 - 100)
+                      * Default: 0 (starting point)
+                      */
+
+      inactiveColor='#eee'   /* Color of the background, when circle is not filled
+                              * Type: string
+                              * Default: '#eee'
+                              */
+      
+      activeColor='#8DE969'      /* Color of the progress indicator
+                                  * Type: string
+                                  * Default: '#8DE969'
+                                  */
+
+      animDuration={200}       /* A duration of animation (in ms)
+                                * Type: number
+                                * Default: 200
+                                */
+    />
+
+   ```
+
+</details>
+
 ## Usage/Demo - Web
 
 <details>

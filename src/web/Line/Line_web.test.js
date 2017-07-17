@@ -1,6 +1,13 @@
-const add = (a, b) => a + b;
+import React from 'react';
+import renderer from 'react-test-renderer';
 
-// testing
-test('Add 1 + 2 to equal 3', () => {
-  expect(add(1, 2)).toBe(3);
+import LineProgressor from './Line';
+
+
+test('It renders without errors', () => {
+  const tree = renderer.create(
+    <LineProgressor />,
+  ).toJSON();
+
+  expect(tree).toMatchSnapshot();
 });
