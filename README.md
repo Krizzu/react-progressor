@@ -131,6 +131,7 @@ using yarn:
 
 <details>
   <summary> FillCircle </summary>
+  
    ![FillCircle progressor for Mobile](media/FillCircleRN.gif)
 
    ```javascript
