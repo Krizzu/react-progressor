@@ -9,7 +9,6 @@
     "postpublish": "rm -rf ./mobile ./web",
     "eslint": "eslint src/**",
     "jest": "jest",
-    "jest-ci": "jest --ci",
     "flow": "flow"
   },
   "files": [
@@ -27,7 +26,8 @@
   "author": "Krzysztof 'Krizzu' Borowy <krzysztoff.borowy@gmail.com>",
   "license": "MIT",
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "testPathIgnorePatterns": ["<rootDir>/web/", "<rootDir>/mobile/", "<rootDir>/node_modules/"]
   },
   "dependencies": {
     "art": "^0.10.1",
